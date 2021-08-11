@@ -1,43 +1,627 @@
-id: opecha:P000001
+id: P000001
 initial_creation_type: input
 source_metadata:
-  id: bdr:W4CZ5369
+  id: bdr:W22084
   title: བཀའ་འགྱུར ༼སྡེ་དགེ༽
   publication: སྡེ་དགེ་པར་ཁང་།
   author: ''
-
-layers:
-  - index
-  - pagination
-  - correction
-  - peydurma-note
-  - uncertain
- 
- views:
-    temporary:
-      loc: releases/tag/temp
-      layers:
-        - toc
-        - page # page-index in boyig
-        - correction
-      format:
-        - md
-    publication:
-      loc: tree/publication
-      layers:
-        - toc
-        - page # page-index in boyig
-        - correction
-      format:
-        - hfml
-    diplomatic:
-      loc: tree/diplomatic
-      layers:
-        - page # page-index in boyig
-        - uncertain
-      format:
-        - hfml
-       
-vol_fns:
-  001_འདུལ་བ།_ཀ.txt: v001
-  002_འདུལ་བ།_ཁ.txt: v002
+  volumes:
+    154c6eb9d0ec42b9981661f435432fbe:
+      image_group_id: I0886
+      title: ''
+      volume_number: 1
+      total_pages: 624
+    a72138a1ba9c4da1b7ec46b37c420615:
+      image_group_id: I0887
+      title: ''
+      volume_number: 2
+      total_pages: 636
+    fff15cfd765c429fb5f88a4a862bae42:
+      image_group_id: I0888
+      title: ''
+      volume_number: 3
+      total_pages: 588
+    8490e05b113647bc86c3a2b6e873d4fa:
+      image_group_id: I0889
+      title: ''
+      volume_number: 4
+      total_pages: 606
+    ecc82002075b41b8ba1d49c7185e5e01:
+      image_group_id: I0890
+      title: ''
+      volume_number: 5
+      total_pages: 586
+    27ad6809b7ed4349abaa282a4475053b:
+      image_group_id: I0891
+      title: ''
+      volume_number: 6
+      total_pages: 577
+    9d45190537af4c9186b82738abfe2457:
+      image_group_id: I0892
+      title: ''
+      volume_number: 7
+      total_pages: 576
+    ecf43a5280a046dc86c503a0897555a6:
+      image_group_id: I0893
+      title: ''
+      volume_number: 8
+      total_pages: 540
+    a2a20fc0d8b94e3ca0c7ab38fdf5f9ef:
+      image_group_id: I0894
+      title: ''
+      volume_number: 9
+      total_pages: 658
+    7ab0011c0b48445a8eff33a600f728b0:
+      image_group_id: I0895
+      title: ''
+      volume_number: 10
+      total_pages: 622
+    8f1294ba9c38470a830b3883ae2568d0:
+      image_group_id: I0896
+      title: ''
+      volume_number: 11
+      total_pages: 668
+    7cb179db4c8c42c4b015a8052cc37b05:
+      image_group_id: I0897
+      title: ''
+      volume_number: 12
+      total_pages: 606
+    80b0a232e3ef4f58856634660a9824e6:
+      image_group_id: I0898
+      title: ''
+      volume_number: 13
+      total_pages: 628
+    11cd5de8768d488890d042866df9a20e:
+      image_group_id: I0899
+      title: ''
+      volume_number: 14
+      total_pages: 790
+    643bd09b2ae940b5ae6a2d43d79651e9:
+      image_group_id: I0900
+      title: ''
+      volume_number: 15
+      total_pages: 806
+    5c33f90f51974325b9760fae4fec705c:
+      image_group_id: I0901
+      title: ''
+      volume_number: 16
+      total_pages: 790
+    e629fcf6081d45f18d1fe2c8ff1c98ec:
+      image_group_id: I0902
+      title: ''
+      volume_number: 17
+      total_pages: 764
+    065f8486f2c5481cb4faa3b824d84dae:
+      image_group_id: I0903
+      title: ''
+      volume_number: 18
+      total_pages: 792
+    557162e125aa4734bec95c8c3c156a28:
+      image_group_id: I0904
+      title: ''
+      volume_number: 19
+      total_pages: 766
+    150dbf8d10f5490d82d6f912a9cb5a96:
+      image_group_id: I0905
+      title: ''
+      volume_number: 20
+      total_pages: 798
+    a1c125064ed54cbd8929595416330fcd:
+      image_group_id: I0906
+      title: ''
+      volume_number: 21
+      total_pages: 800
+    99bbfcf782234407a2c7ca4d6f7164b9:
+      image_group_id: I0907
+      title: ''
+      volume_number: 22
+      total_pages: 770
+    bb8fd116562e4f2da817d0b1312ad306:
+      image_group_id: I0908
+      title: ''
+      volume_number: 23
+      total_pages: 776
+    284435386f414efdab2fd220ddd13cfb:
+      image_group_id: I0909
+      title: ''
+      volume_number: 24
+      total_pages: 824
+    2e3320f022474d36b4042493f541de6e:
+      image_group_id: I0910
+      title: ''
+      volume_number: 25
+      total_pages: 792
+    64e0f3dbfb1045fd87be232dc5823514:
+      image_group_id: I0911
+      title: ''
+      volume_number: 26
+      total_pages: 766
+    c65b33b7797745988e47a6e3262825c0:
+      image_group_id: I0912
+      title: ''
+      volume_number: 27
+      total_pages: 788
+    9d754266b97e4d26a469641a5d251272:
+      image_group_id: I0913
+      title: ''
+      volume_number: 28
+      total_pages: 764
+    ae24f111b43946cda9014d494101cdbf:
+      image_group_id: I0914
+      title: ''
+      volume_number: 29
+      total_pages: 602
+    553ad9b49646492d91a7599dc96ed300:
+      image_group_id: I0915
+      title: ''
+      volume_number: 30
+      total_pages: 610
+    295956142cbf4aafbb718ce8f61d6ced:
+      image_group_id: I0916
+      title: ''
+      volume_number: 31
+      total_pages: 596
+    a09da7641cde4ad388755422b9e55b76:
+      image_group_id: I0917
+      title: ''
+      volume_number: 32
+      total_pages: 614
+    c99163352c254737ad65f0d4343e6db9:
+      image_group_id: I0918
+      title: ''
+      volume_number: 33
+      total_pages: 574
+    9e8c26c4edd646c48906b6be7e97c01a:
+      image_group_id: I0919
+      title: ''
+      volume_number: 34
+      total_pages: 569
+    63cabd1b16794c15bbf35c0a6c84ea7a:
+      image_group_id: I0920
+      title: ''
+      volume_number: 35
+      total_pages: 788
+    7a1dcc2b34914db1aeb92fd53d377730:
+      image_group_id: I0921
+      title: ''
+      volume_number: 36
+      total_pages: 794
+    1faa80b3c3ed4c0d8cac1147546a77b6:
+      image_group_id: I0922
+      title: ''
+      volume_number: 37
+      total_pages: 794
+    75ddc1c31ef948c08d17edf39630d8a4:
+      image_group_id: I0923
+      title: ''
+      volume_number: 38
+      total_pages: 728
+    1ea26ce94fdc416196b6066101fbcd05:
+      image_group_id: I0924
+      title: ''
+      volume_number: 39
+      total_pages: 542
+    5fcc342d9a2c4f48a36174f397d2cc6d:
+      image_group_id: I0925
+      title: ''
+      volume_number: 40
+      total_pages: 590
+    d3b94529fe8249b7bc20939ebd6c9180:
+      image_group_id: I0926
+      title: ''
+      volume_number: 41
+      total_pages: 598
+    3031ab1ddf9c4416a6e58a6dd9658750:
+      image_group_id: I0927
+      title: ''
+      volume_number: 42
+      total_pages: 578
+    e2b2b0da441741419e25a3a04e8841bf:
+      image_group_id: I0928
+      title: ''
+      volume_number: 43
+      total_pages: 620
+    2275fecc6d3e4e1bb1f456d22feca05a:
+      image_group_id: I0929
+      title: ''
+      volume_number: 44
+      total_pages: 600
+    fbd8f2c7d7634ba88657740eed7e60f1:
+      image_group_id: I0930
+      title: ''
+      volume_number: 45
+      total_pages: 682
+    6018364d97f647a3871c29b912f4d770:
+      image_group_id: I0931
+      title: ''
+      volume_number: 46
+      total_pages: 558
+    15d5abfff0c147de86005d94de9dde53:
+      image_group_id: I0932
+      title: ''
+      volume_number: 47
+      total_pages: 612
+    0083bc1d7fca430d9f853eadc41da450:
+      image_group_id: I0933
+      title: ''
+      volume_number: 48
+      total_pages: 576
+    d049baf10a6e4324a64a90a1cca94bd6:
+      image_group_id: I0934
+      title: ''
+      volume_number: 49
+      total_pages: 586
+    1b9f90ec6ea540149c3ea0a52ece8422:
+      image_group_id: I0935
+      title: ''
+      volume_number: 50
+      total_pages: 594
+    9c0a00f11deb4afab2b745e59e264829:
+      image_group_id: I0936
+      title: ''
+      volume_number: 51
+      total_pages: 598
+    95429fd7837140b7a597603834268d1c:
+      image_group_id: I0937
+      title: ''
+      volume_number: 52
+      total_pages: 688
+    e20656f954dc41c7bf9f8c8fffb53f79:
+      image_group_id: I0938
+      title: ''
+      volume_number: 53
+      total_pages: 680
+    0eb7de432cec4e4b8ec1344c550e9abf:
+      image_group_id: I0939
+      title: ''
+      volume_number: 54
+      total_pages: 594
+    f683d6e7c8de4958a27c597e7e473933:
+      image_group_id: I0940
+      title: ''
+      volume_number: 55
+      total_pages: 634
+    b3909aa1b6314d6ea60b4eee33e6c7c3:
+      image_group_id: I0941
+      title: ''
+      volume_number: 56
+      total_pages: 602
+    4f5ca00436e9434ca83e413b492fd670:
+      image_group_id: I0942
+      title: ''
+      volume_number: 57
+      total_pages: 690
+    821cd310ea2b48db97b174c721211ba3:
+      image_group_id: I0943
+      title: ''
+      volume_number: 58
+      total_pages: 640
+    8e6c9bec162e4a9ba0cc127de727ef2b:
+      image_group_id: I0944
+      title: ''
+      volume_number: 59
+      total_pages: 630
+    5561e6e95345443088083467480f25d6:
+      image_group_id: I0945
+      title: ''
+      volume_number: 60
+      total_pages: 594
+    a4cb67b0d0604a6499351772da953e1c:
+      image_group_id: I0946
+      title: ''
+      volume_number: 61
+      total_pages: 618
+    479b050c926648238abbbbb05d41a7b9:
+      image_group_id: I0947
+      title: ''
+      volume_number: 62
+      total_pages: 616
+    ae3bf198b8d24b00bcd63c465d563f98:
+      image_group_id: I0948
+      title: ''
+      volume_number: 63
+      total_pages: 596
+    9564745ad57541d5bcc6a1dc14f241e8:
+      image_group_id: I0949
+      title: ''
+      volume_number: 64
+      total_pages: 600
+    3a5caf5026cd4663b613df52168d8242:
+      image_group_id: I0950
+      title: ''
+      volume_number: 65
+      total_pages: 614
+    dd14672820364493b3cbf0af26131177:
+      image_group_id: I0951
+      title: ''
+      volume_number: 66
+      total_pages: 622
+    89cc393b2789419081dd92024b788a6a:
+      image_group_id: I0952
+      title: ''
+      volume_number: 67
+      total_pages: 640
+    0038fc6047d04293b86ea4d743cd35a8:
+      image_group_id: I0953
+      title: ''
+      volume_number: 68
+      total_pages: 638
+    1c4551aac4024bbca8c3e2b750f889c6:
+      image_group_id: I0954
+      title: ''
+      volume_number: 69
+      total_pages: 616
+    06c1429314574ecba49fee6b3defdff5:
+      image_group_id: I0955
+      title: ''
+      volume_number: 70
+      total_pages: 626
+    d184a6fc356f412fab9ab16563496257:
+      image_group_id: I0956
+      title: ''
+      volume_number: 71
+      total_pages: 612
+    1bbebf7c08f644c084b528a8280d872d:
+      image_group_id: I0957
+      title: ''
+      volume_number: 72
+      total_pages: 622
+    b769ff074412402a8c58ac130fdc0abc:
+      image_group_id: I0958
+      title: ''
+      volume_number: 73
+      total_pages: 620
+    428564c8c3df479bbc7f24e81ff1edc9:
+      image_group_id: I0959
+      title: ''
+      volume_number: 74
+      total_pages: 602
+    f5a994d106f54501a28985bae4ed7afd:
+      image_group_id: I0960
+      title: ''
+      volume_number: 75
+      total_pages: 598
+    e5bb429569224b87b2b0d75e89221376:
+      image_group_id: I0961
+      title: ''
+      volume_number: 76
+      total_pages: 564
+    2272b63995d1464aa83d1ffc7a7ae840:
+      image_group_id: I0962
+      title: ''
+      volume_number: 77
+      total_pages: 742
+    896196824d064b79b3758bd8c51d7342:
+      image_group_id: I0963
+      title: ''
+      volume_number: 78
+      total_pages: 624
+    1110f9072a2b4f6f969b8501702634a8:
+      image_group_id: I0964
+      title: ''
+      volume_number: 79
+      total_pages: 586
+    9784787e34b040e7b8e869ae1f630db6:
+      image_group_id: I0965
+      title: ''
+      volume_number: 80
+      total_pages: 688
+    85c40111c02147ff8a9203741913f64c:
+      image_group_id: I0966
+      title: ''
+      volume_number: 81
+      total_pages: 574
+    50b2a328654a4fcc926d5731e7067517:
+      image_group_id: I0967
+      title: ''
+      volume_number: 82
+      total_pages: 664
+    a67bda6ecf544e4881373be1c3f6c564:
+      image_group_id: I0968
+      title: ''
+      volume_number: 83
+      total_pages: 608
+    9cb1a8bf306d477f9eb2e9a94de8bf54:
+      image_group_id: I0969
+      title: ''
+      volume_number: 84
+      total_pages: 550
+    a07fd8bb2e064c038aceedb58ee6e045:
+      image_group_id: I0970
+      title: ''
+      volume_number: 85
+      total_pages: 546
+    27c2673f76e5488580558f745979c85a:
+      image_group_id: I0971
+      title: ''
+      volume_number: 86
+      total_pages: 648
+    01fa76ae738142f8990efba2309df2ff:
+      image_group_id: I0972
+      title: ''
+      volume_number: 87
+      total_pages: 620
+    55813aaa66bb442cabb48091d9bd9785:
+      image_group_id: I0973
+      title: ''
+      volume_number: 88
+      total_pages: 670
+    b0e786fb12ae49e583a97231ad600fc3:
+      image_group_id: I0974
+      title: ''
+      volume_number: 89
+      total_pages: 548
+    0106e39ea4f54457993a122a9812d6de:
+      image_group_id: I0975
+      title: ''
+      volume_number: 90
+      total_pages: 574
+    dfca46acd39042b0a74dd1eb5a1ab40b:
+      image_group_id: I0976
+      title: ''
+      volume_number: 91
+      total_pages: 576
+    84a0070b71a64b47bb766775a8903516:
+      image_group_id: I0977
+      title: ''
+      volume_number: 92
+      total_pages: 634
+    8651d2b0134f4a069fa232842eeca934:
+      image_group_id: I0978
+      title: ''
+      volume_number: 93
+      total_pages: 622
+    d42df5608ee4431198fb6a1a600e904a:
+      image_group_id: I0979
+      title: ''
+      volume_number: 94
+      total_pages: 534
+    f0ae284b354845a3aa3d25ceb79500e8:
+      image_group_id: I0980
+      title: ''
+      volume_number: 95
+      total_pages: 592
+    8dfdd95387394e55af7f89fb952bae46:
+      image_group_id: I0981
+      title: ''
+      volume_number: 96
+      total_pages: 530
+    9666eddcf7e84fde88e34557354b42ec:
+      image_group_id: I0982
+      title: ''
+      volume_number: 97
+      total_pages: 718
+    83640df8bf5043cc85b9d24372ff5f1e:
+      image_group_id: I0983
+      title: ''
+      volume_number: 98
+      total_pages: 624
+    785219c47cde4fbcb67357d463bd5cae:
+      image_group_id: I0984
+      title: ''
+      volume_number: 99
+      total_pages: 576
+    da2039525a9c4e2183053719e53a4809:
+      image_group_id: I0985
+      title: ''
+      volume_number: 100
+      total_pages: 568
+    302604093d3d4ce48e2fe9a28a9f66d7:
+      image_group_id: I0986
+      title: ''
+      volume_number: 101
+      total_pages: 558
+    e04d19291996416c9e9739b5260380b1:
+      image_group_id: I0987
+      title: ''
+      volume_number: 102
+      total_pages: 944
+    f75bc63095a94c91a18a03ada2b533cf:
+      image_group_id: I0988
+      title: ''
+      volume_number: 103
+      total_pages: 344
+vol2fn:
+  v001: v001.txt
+  v002: v002.txt
+  v003: v003.txt
+  v004: v004.txt
+  v005: v005.txt
+  v006: v006.txt
+  v007: v007.txt
+  v008: v008.txt
+  v009: v009.txt
+  v010: v010.txt
+  v011: v011.txt
+  v012: v012.txt
+  v013: v013.txt
+  v014: v014.txt
+  v015: v015.txt
+  v016: v016.txt
+  v017: v017.txt
+  v018: v018.txt
+  v019: v019.txt
+  v020: v020.txt
+  v021: v021.txt
+  v022: v022.txt
+  v023: v023.txt
+  v024: v024.txt
+  v025: v025.txt
+  v026: v026.txt
+  v027: v027.txt
+  v028: v028.txt
+  v029: v029.txt
+  v030: v030.txt
+  v031: v031.txt
+  v032: v032.txt
+  v033: v033.txt
+  v034: v034.txt
+  v035: v035.txt
+  v036: v036.txt
+  v037: v037.txt
+  v038: v038.txt
+  v039: v039.txt
+  v040: v040.txt
+  v041: v041.txt
+  v042: v042.txt
+  v043: v043.txt
+  v044: v044.txt
+  v045: v045.txt
+  v046: v046.txt
+  v047: v047.txt
+  v048: v048.txt
+  v049: v049.txt
+  v050: v050.txt
+  v051: v051.txt
+  v052: v052.txt
+  v053: v053.txt
+  v054: v054.txt
+  v055: v055.txt
+  v056: v056.txt
+  v057: v057.txt
+  v058: v058.txt
+  v059: v059.txt
+  v060: v060.txt
+  v061: v061.txt
+  v062: v062.txt
+  v063: v063.txt
+  v064: v064.txt
+  v065: v065.txt
+  v066: v066.txt
+  v067: v067.txt
+  v068: v068.txt
+  v069: v069.txt
+  v070: v070.txt
+  v071: v071.txt
+  v072: v072.txt
+  v073: v073.txt
+  v074: v074.txt
+  v075: v075.txt
+  v076: v076.txt
+  v077: v077.txt
+  v078: v078.txt
+  v079: v079.txt
+  v080: v080.txt
+  v081: v081.txt
+  v082: v082.txt
+  v083: v083.txt
+  v084: v084.txt
+  v085: v085.txt
+  v086: v086.txt
+  v087: v087.txt
+  v088: v088.txt
+  v089: v089.txt
+  v090: v090.txt
+  v091: v091.txt
+  v092: v092.txt
+  v093: v093.txt
+  v094: v094.txt
+  v095: v095.txt
+  v096: v096.txt
+  v097: v097.txt
+  v098: v098.txt
+  v099: v099.txt
+  v100: v100.txt
+  v101: v101.txt
+  v102: v102.txt
+  v103: v103.txt
