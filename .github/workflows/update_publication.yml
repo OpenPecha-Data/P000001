@@ -41,7 +41,7 @@ jobs:
 
 
           config = {
-              "OP_ORG": "https://github.com/ta4tsering"
+              "OP_ORG": "https://github.com/Openpecha"
           }
 
           def commit(repo, message, not_includes=[], branch="publication"):
@@ -147,6 +147,6 @@ jobs:
               remove_all_files(pecha_path)
               write_hfml_text(pecha_path, hfml_text, meta_info)
               repo = Repo(pecha_path)
-              setup_auth(repo, "ta4tsering", token)
+              setup_auth(repo, "Openpecha", token)
               commit(repo, commit_msg, branch="publication")
         shell: python
