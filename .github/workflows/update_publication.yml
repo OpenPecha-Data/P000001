@@ -63,7 +63,7 @@ jobs:
                       if not message:
                           message = "Initial commit"
                       repo.git.commit("-m", message)
-                      repo.git.push("origin", "HEAD:publication")
+                      repo.git.push("origin", "publication")
                       
           def setup_auth(repo, org, token):
               remote_url = repo.remote().url
@@ -109,7 +109,7 @@ jobs:
                   return branch
               return "master"
               
-          def download_pecha(pecha_id, out_path=None, branch=master):
+          def download_pecha(pecha_id, out_path=None, branch="master"):
               pecha_url = f"{config['OP_ORG']}/{pecha_id}.git"
               out_path = Path(out_path)
               out_path.mkdir(exist_ok=True, parents=True)
