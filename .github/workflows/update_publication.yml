@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: base-update-review
           
       - name: Configure git
         uses: dawidd6/action-git-user-config@v1
@@ -111,7 +109,7 @@ jobs:
                   return branch
               return "master"
               
-          def download_pecha(pecha_id, out_path=None, branch="base-update-review"):
+          def download_pecha(pecha_id, out_path=None, branch=master):
               pecha_url = f"{config['OP_ORG']}/{pecha_id}.git"
               out_path = Path(out_path)
               out_path.mkdir(exist_ok=True, parents=True)
@@ -131,6 +129,7 @@ jobs:
               file_path = './'
               pecha_id = "P000001"
               pecha_path = download_pecha(pecha_id, file_path)
+              subprocess.run(f'cd {pecha_path}/; git checkout base-update-review', shell=True)
               meta_info = get_meta_info(pecha_path, pecha_id)
               hfml_text = get_hfml(f"{pecha_path}/{pecha_id}.opf/")
               pull_branch(pecha_path)
