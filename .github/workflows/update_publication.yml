@@ -82,8 +82,7 @@ jobs:
                   print(f"{file_name} is done")
                   
           def pull_branch(pecha_path):
-              subprocess.run(f'cd {pecha_path}/; git pull --rebase origin publication', shell=True)
-              subprocess.run(f'cd {pecha_path}/; rm -rf ./.github', shell=True)
+              subprocess.run(f'cd {pecha_path}/; git pull checkout publication', shell=True)
               
           def get_hfml(opf_path):
               serializer = HFMLSerializer(opf_path, layers=["Pagination"])
