@@ -2,7 +2,7 @@ name: Create publication
 on: 
   push:
     branches:
-      - master
+      - base-update-revieew
 jobs:
   release-project:
     name: Create the publication
