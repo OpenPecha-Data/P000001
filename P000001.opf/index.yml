@@ -10,37 +10,37 @@ annotations:
         span:
         - vol: 1
           start: 27
-          end: 396711
+          end: 396715
       4993722a64084f1da94b10ce89482014:
         work_id: T1-2
         span:
         - vol: 1
           start: 396711
-          end: 671993
+          end: 671997
       754c054228ee4a88934945e9ab03b27d:
         work_id: T1-3
         span:
         - vol: 1
           start: 671993
-          end: 717500
+          end: 717504
       f543104ca7b144d0a8822d0f411bf926:
         work_id: T1-4
         span:
         - vol: 1
           start: 717500
-          end: 758868
+          end: 758872
       dee285e5d4ea407894d5233dac9a1aa7:
         work_id: T1-5
         span:
         - vol: 1
           start: 758868
-          end: 835520
+          end: 835524
       a6a2e0a2fe474911a83c44db140bad46:
         work_id: T1-6
         span:
         - vol: 1
           start: 835520
-          end: 934579
+          end: 934583
         - vol: 2
           start: 0
           end: 973250
@@ -122,7 +122,7 @@ annotations:
     span:
     - vol: 1
       start: 27
-      end: 934579
+      end: 934583
     - vol: 2
       start: 0
       end: 973250
