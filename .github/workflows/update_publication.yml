@@ -2,7 +2,7 @@ name: Create publication
 on: 
   push:
     branches:
-      - base-update-review
+      - test-proofread
 jobs:
   release-project:
     name: Create the publication
@@ -124,12 +124,12 @@ jobs:
           if __name__=='__main__':
               token = os.environ.get('SECRET')
               g = Github(token)
-              commit_msg = "updated pulication from base-update-review"
+              commit_msg = "updated pulication from test-proofread"
               headers = {"Authorization": f"bearer {token}"}
               file_path = './'
               pecha_id = "P000001"
               pecha_path = download_pecha(pecha_id, file_path)
-              subprocess.run(f'cd {pecha_path}/; git checkout base-update-review', shell=True)
+              subprocess.run(f'cd {pecha_path}/; git checkout test-proofread', shell=True)
               meta_info = get_meta_info(pecha_path, pecha_id)
               hfml_text = get_hfml(f"{pecha_path}/{pecha_id}.opf/")
               pull_branch(pecha_path)
