@@ -816,7 +816,7 @@ annotations:
         span:
         - vol: 37
           start: 774632
-          end: 1122184
+          end: 1122180
         - vol: 38
           start: 0
           end: 1058367
@@ -832,7 +832,7 @@ annotations:
       end: 1077817
     - vol: 37
       start: 0
-      end: 1122184
+      end: 1122180
     - vol: 38
       start: 0
       end: 1058367
