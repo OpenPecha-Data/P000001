@@ -2563,70 +2563,70 @@ annotations:
     span:
     - vol: 68
       start: 151802
-      end: 157709
+      end: 157708
   380b0ce19ca24afdbec58a3430b58990:
     work_id: T279
     parts: {}
     span:
     - vol: 68
       start: 157709
-      end: 159282
+      end: 159281
   a2e104c6afbc4c63b3948d83db7c5786:
     work_id: T280
     parts: {}
     span:
     - vol: 68
       start: 159282
-      end: 159934
+      end: 159933
   1efb8a0fda4149809bd9a912a3cdbaaa:
     work_id: T281
     parts: {}
     span:
     - vol: 68
       start: 159934
-      end: 160352
+      end: 160351
   f1fd71b867944926ab2a2dba9a96dad9:
     work_id: T282
     parts: {}
     span:
     - vol: 68
       start: 160352
-      end: 161474
+      end: 161473
   1cf9e2e68149443fbc74646ebf37ce90:
     work_id: T283
     parts: {}
     span:
     - vol: 68
       start: 161474
-      end: 164153
+      end: 164152
   3c596b8ee5284cf595e5b4207239f4cf:
     work_id: T284
     parts: {}
     span:
     - vol: 68
       start: 164153
-      end: 222485
+      end: 222484
   1141ebe39c0941208e658fea1237dffe:
     work_id: T285
     parts: {}
     span:
     - vol: 68
       start: 222485
-      end: 229936
+      end: 229935
   134e2a92a4c24690baedc8cd094f0753:
     work_id: T286
     parts: {}
     span:
     - vol: 68
       start: 229936
-      end: 235667
+      end: 235666
   ad6da6ed304246859a3e1195952a0d17:
     work_id: T287
     parts: {}
     span:
     - vol: 68
       start: 235667
-      end: 943112
+      end: 943110
     - vol: 69
       start: 0
       end: 968734
