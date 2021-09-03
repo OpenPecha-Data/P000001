@@ -852,28 +852,28 @@ annotations:
     span:
     - vol: 39
       start: 136465
-      end: 302662
+      end: 302681
   0d0824e6a63d475391315b728c973fff:
     work_id: T47
     parts: {}
     span:
     - vol: 39
       start: 302662
-      end: 630801
+      end: 630820
   2c1c3d8c573d4621923673596496458a:
     work_id: T48
     parts: {}
     span:
     - vol: 39
       start: 630801
-      end: 736776
+      end: 736795
   6213e789e78f46a098b46dfc5c27609a:
     work_id: T49
     parts: {}
     span:
     - vol: 39
       start: 736776
-      end: 843778
+      end: 843797
     - vol: 40
       start: 0
       end: 34
