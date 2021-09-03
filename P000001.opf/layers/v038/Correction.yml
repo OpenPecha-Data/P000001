@@ -42,23 +42,23 @@ annotations:
     correction: གནོན་
     certainty: null
     span:
-      start: 547587
-      end: 547591
+      start: 547588
+      end: 547592
   ce52654fb4d14a00a330050bcec68003:
     correction: ཌཱུ
     certainty: null
     span:
-      start: 922965
-      end: 922967
+      start: 922966
+      end: 922968
   898cd5c9790448fb90b9707a730ec4d3:
     correction: དྭགས་
     certainty: null
     span:
-      start: 975641
-      end: 975644
+      start: 975642
+      end: 975645
   68bda037269b41f6a3f1505e895be011:
     correction: གནོན་
     certainty: null
     span:
-      start: 1017573
-      end: 1017577
+      start: 1017574
+      end: 1017578
