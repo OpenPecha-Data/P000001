@@ -4345,10 +4345,10 @@ annotations:
     reference: 09230726.tif
     span:
       start: 1055223
-      end: 1056934
+      end: 1056938
   e9cf4f1059964e05950a015a220ea73b:
     imgnum: 727
     reference: 09230727.tif
     span:
-      start: 1056937
-      end: 1058363
+      start: 1056941
+      end: 1058367
