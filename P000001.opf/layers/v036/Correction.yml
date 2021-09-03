@@ -192,17 +192,17 @@ annotations:
     correction: ཀྱི་
     certainty: null
     span:
-      start: 802639
-      end: 802642
+      start: 802638
+      end: 802641
   d77e67e8a4fe404c8eab6adf9ce3d5c6:
     correction: གདབ་
     certainty: null
     span:
-      start: 812681
-      end: 812684
+      start: 812680
+      end: 812683
   a87493a727c34a01b159ed2493c26c34:
     correction: གདབ་
     certainty: null
     span:
-      start: 812723
-      end: 812726
+      start: 812722
+      end: 812725
