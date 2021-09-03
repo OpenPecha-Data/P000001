@@ -942,14 +942,14 @@ annotations:
     span:
     - vol: 41
       start: 749485
-      end: 787629
+      end: 787628
   48703887b7904e62b83abf320e976059:
     work_id: T59
     parts: {}
     span:
     - vol: 41
       start: 787629
-      end: 941189
+      end: 941188
     - vol: 42
       start: 0
       end: 31
